@@ -69,17 +69,30 @@ Impact forecasting expressed as probability ranges, not guarantees
 
 🧠 Architecture Overview
 Raw Dataset (CSV / JSON)
+
         ↓
+        
 Telemetry Parser + PII Scrubber
+
         ↓
+        
 Deterministic Feature Engineering
+
         ↓
+
 ML-based Behavioral Clustering
+
         ↓
+
 Affinity & Similarity Computation
+
         ↓
+        
 GenAI Insight Synthesis (Gemini)
+
+
         ↓
+        
 Interactive Dashboard (Vite + React)
 
 🔍 Key Features
