@@ -9,7 +9,7 @@ import { ShopperSegment, MerchandisingRecommendation, PerspectiveMode, Review, L
 import { 
   generateMerchandisingRecommendations, getPersonaDetails, discoverSegments, 
   analyzeFriction, generateContextualReviews, synthesizeDomainDNA, generateCampaignManifest, QuotaError
-} from './services/geminiService';
+} from './Services/geminiService';
 import BehavioralMap from './components/BehavioralMap';
 import SegmentGrid from './components/SegmentGrid';
 import DataUploader from './components/DataUploader';
