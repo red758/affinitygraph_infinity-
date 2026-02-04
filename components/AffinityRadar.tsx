@@ -1,0 +1,1 @@
+// Deprecated: BehavioralMap.tsx now handles visualization with higher diagnostic fidelity.
