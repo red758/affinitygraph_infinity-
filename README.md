@@ -1,12 +1,15 @@
 🛍 AffinityGraph – Shopper Behavior Intelligence Platform
 📌 Overview
 
+
 AffinityGraph is a probabilistic consumer analytics platform that analyzes raw e-commerce telemetry to uncover behavioral segments, product affinities, and actionable merchandising insights.
 
 Unlike traditional analytics systems that rely on static demographics, AffinityGraph reconstructs behavior-driven shopper patterns using a combination of deterministic mathematical modeling, machine learning, and generative AI.
 The system focuses on explaining why customers behave the way they do, not just predicting outcomes.
 
+
 🎯 Problem Statement
+
 
 Online shoppers exhibit complex behavior influenced by preferences, values, timing, pricing, and experience friction.
 Merchandising and marketing teams struggle to:
@@ -19,9 +22,12 @@ Interpret unstructured textual feedback (reviews, sentiment)
 
 Convert analytics into real, explainable business actions
 
+
 💡 Solution Approach
 
+
 AffinityGraph addresses this problem through a three-layer intelligence pipeline:
+
 
 1️⃣ Deterministic Behavioral Mapping (Ground Truth Layer)
 
@@ -37,7 +43,7 @@ Adaptive 2D projections for visual interpretation
 
 PII-safe telemetry parsing from CSV/JSON inputs
 
-📌 These operations are deterministic, repeatable, and explainable.
+
 
 2️⃣ Probabilistic Intelligence & ML Inference
 
@@ -53,6 +59,7 @@ Lifecycle tracking of segments (Discovery → Validation → Active)
 
 The model learns patterns from the provided dataset, not from pre-trained consumer labels.
 
+
 3️⃣ GenAI-Driven Interpretation & Strategy Layer
 
 Powered by Gemini, this layer converts signals into insight.
@@ -66,6 +73,7 @@ Review & sentiment synthesis to detect experience friction
 Actionable merchandising and marketing strategies
 
 Impact forecasting expressed as probability ranges, not guarantees
+
 
 🧠 Architecture Overview
 Raw Dataset (CSV / JSON)
@@ -95,7 +103,9 @@ GenAI Insight Synthesis (Gemini)
         
 Interactive Dashboard (Vite + React)
 
+
 🔍 Key Features
+
 
 Behavioral (not demographic) shopper segmentation
 
@@ -108,6 +118,7 @@ NLP-based review and sentiment analysis
 Explainable AI outputs with confidence indicators
 
 Merchandising, Marketing & Leadership perspectives
+
 
 🤖 ML + GenAI Integration
 Machine Learning
@@ -130,6 +141,7 @@ Strategy and playbook generation
 
 📌 GenAI does not generate raw predictions — it explains and contextualizes ML outputs.
 
+
 ⚙️ Assumptions
 
 Input data is anonymized or PII-safe
@@ -139,6 +151,7 @@ Behavioral patterns are inferred probabilistically, not psychologically
 Dataset size is sufficient to infer stable clusters
 
 Insights are advisory, not deterministic business guarantees
+
 
 ⚠️ Limitations & Ethical Considerations
 
@@ -152,6 +165,7 @@ The system avoids psychological or sensitive attribute labeling
 
 Generated narratives are framed explicitly as hypotheses
 
+
 🚀 Running the Project Locally
 npm install
 npm run dev
@@ -162,10 +176,12 @@ Create a .env file (not committed to GitHub):
 
 VITE_GEMINI_API_KEY=your_api_key_here
 
+
 🌍 Deployment
 
 The application is fully deployable on free platforms such as Vercel or Netlify.
 API keys are configured via environment variables on the hosting platform.
+
 
 📈 Business Feasibility
 
